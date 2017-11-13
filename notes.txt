@@ -1,0 +1,6 @@
+foreach (var fruit in fruitsLookup)
+            {
+                //var val = fruit.Select(x => x).Count();
+                //var k = fruit.Key;
+                dic.Add(fruit.Key, fruit.Select(x => x).Count().ToString());
+            }
